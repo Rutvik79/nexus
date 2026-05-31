@@ -1,0 +1,10 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+autoInstallPeers: true
+
+allowBuilds:
+  '@prisma/engines': true
+  prisma: true
+  sharp: true
